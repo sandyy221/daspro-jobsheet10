@@ -35,7 +35,8 @@ public class BioskopWithScanner27 {
                                 System.out.println("Data penonton berhasil ditambahkan");
                                 break;   
                             }else{
-                                System.out.println("Kursi pada baris " + baris + " kolom " + kolom + " sudah terisi oleh " + penonton[baris-1][kolom-1]);
+                                System.out.println("Kursi pada baris " + baris + " kolom " + kolom + " sudah terisi oleh "
+                                 + penonton[baris-1][kolom-1]);
                                 System.out.println("Silahkan pilih kursi lain");
                             }
                             
